@@ -1,6 +1,9 @@
 language: ruby
 sudo: required
 dist: xenial
+arch:
+  - amd64
+  - ppc64le
 services:
   - docker
 rvm:
